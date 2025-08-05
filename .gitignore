@@ -1,0 +1,54 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Output of `go build`
+/bin/
+/build/
+/dist/
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Test binary and coverage output
+*.cover
+*.test
+coverage.out
+
+# Vendor directory (if not committing dependencies)
+vendor/
+
+# Dependency directories (if using Go modules)
+go.sum
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment files
+.env
+.env.*
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.iml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# JetBrains GoLand IDE files
+*.iws
+*.ipr
+
+# Local database (if using SQLite or others locally)
+*.db
+*.sqlite
